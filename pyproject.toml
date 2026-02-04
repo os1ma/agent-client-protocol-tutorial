@@ -4,7 +4,11 @@ version = "0.1.0"
 description = ""
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "agent-client-protocol>=0.7.1",
+    "openai>=2.16.0",
+    "python-dotenv>=1.2.1",
+]
 
 [tool.mypy]
 strict = true
